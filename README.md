@@ -7,7 +7,7 @@ Lösningar för #aoc2017 i Python 3 (testat mot 3.5.2).
 Logg
 ----
 
- * Särskilt svåra dagar vid kodtillfället: dag 3
+ * Särskilt svåra dagar (tidsåtgång mer än 60 min) vid kodtillfället: dag 3 och 6.
  * Dag 3: del 2 kopierades från en färdig sekvens. Restpunkt är att faktiskt implementera den.
 
 
