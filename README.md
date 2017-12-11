@@ -8,7 +8,10 @@ Logg
 ----
 
  * Särskilt svåra dagar (tidsåtgång mer än 60 min) vid kodtillfället: dag 3, 6 och 7.
- * Dag 3: del 2 kopierades från en färdig sekvens. Restpunkt är att faktiskt implementera den.
+ * Dag 3: del 2 kopierades från en [färdig sekvens](https://oeis.org/A141481). Restpunkt är att faktiskt
+   implementera den.
+ * Dag 11: Allt som behövs finns beskrivet på
+   [Hexagonal Grids from Red Blob Games](https://www.redblobgames.com/grids/hexagons/).
 
 
 Hjälpscript
