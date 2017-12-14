@@ -9,23 +9,25 @@ class Solution(BaseSolution):
         return 'Day 12: Digital Plumber'
 
     def _walk(self, i, programs):
-        piped = programs[i].split()[2:]
-        self.seen.append(i)
+        line = next(filter(lambda l: l.startswith('{} <->'.format(i)), programs))
+        piped = line.split()[2:]
+        self.seen.add(i)
         for p in [int(p.replace(',', '')) for p in piped]:
             if p not in self.seen:
                 self._walk(p, programs)
 
     def solve(self, puzzle_input):
-        programs = puzzle_input.splitlines()
-        self.seen = []
+        programs = [pi.strip() for pi in puzzle_input.splitlines()]
+        self.seen = set()
         self._walk(0, programs)
         return len(self.seen)
 
     def solve_again(self, puzzle_input):
-        programs = puzzle_input.splitlines()
-        self.seen = []
+        programs = [pi.strip() for pi in puzzle_input.splitlines()]
+        self.seen = set()
         groups = 0
-        for pid, line in enumerate(programs):
+        for line in programs:
+            pid = int(line.split()[0])
             if pid not in self.seen:
                 self._walk(pid, programs)
                 groups += 1

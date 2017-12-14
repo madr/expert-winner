@@ -9,15 +9,17 @@ Logg
 
  * Särskilt svåra dagar (tidsåtgång mer än 60 min) vid kodtillfället:
    * Dag 3,
-   * Dag 6 och
-   * Dag 7.
+   * Dag 6,
+   * Dag 7 och
+   * Dag 14.
  * Dag 3: del 2 kopierades från en [färdig sekvens](https://oeis.org/A141481). Restpunkt är att faktiskt
    implementera den.
  * Dag 5: del 2 tar väldigt lång tid att exekvera. Restpunkt är att optimera denna!
- * Dag 13: del 2 misslyckades att hitta något som var snabbt nog att exekvera. 
-   Restpunkt är skriva något som inte tar en timme att köra!
  * Dag 11: Allt som behövs finns beskrivet på
    [Hexagonal Grids](https://www.redblobgames.com/grids/hexagons/).
+ * Dag 13: del 2 misslyckande att hitta något som var snabbt nog att exekvera. 
+   Restpunkt är skriva något som inte tar en timme att köra!
+ * Dag 14 del 2: Läs på om [Union-find algoritmen](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
 
 
 Hjälpscript
