@@ -20,6 +20,7 @@ Logg
  * Dag 13: del 2 misslyckande att hitta något som var snabbt nog att exekvera. 
    Restpunkt är skriva något som inte tar en timme att köra!
  * Dag 14 del 2: Läs på om [Union-find algoritmen](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+ * Dag 15: borde skrivas om att använda generatorer för att snabbas upp.
 
 
 Hjälpscript
