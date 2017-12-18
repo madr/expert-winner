@@ -10,8 +10,9 @@ Logg
  * Särskilt svåra dagar (tidsåtgång mer än 60 min) vid kodtillfället:
    * Dag 3,
    * Dag 6,
-   * Dag 7 och
-   * Dag 14.
+   * Dag 7,
+   * Dag 14 och
+   * Dag 18.
  * Dag 3: del 2 kopierades från en [färdig sekvens](https://oeis.org/A141481). Restpunkt är att faktiskt
    implementera den.
  * Dag 5: del 2 tar väldigt lång tid att exekvera. Restpunkt är att optimera denna!
@@ -21,6 +22,7 @@ Logg
    Restpunkt är skriva något som inte tar en timme att köra!
  * Dag 14 del 2: Läs på om [Union-find algoritmen](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
  * Dag 15: borde skrivas om att använda generatorer för att snabbas upp.
+ * Dag 18 del 2: ["värdet av" kan betyda flera saker](https://www.reddit.com/r/adventofcode/comments/7kj35s/2017_day_18_solutions/dreth75/) ... jävla etta.
 
 
 Hjälpscript
